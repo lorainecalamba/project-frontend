@@ -20,6 +20,10 @@ html {
     color: #313339;
     text-decoration: underline;
 }
+.navbar-logo p:hover {
+    color: #55565c;
+    cursor: pointer;
+}
 .nav-item-list {
     width: 100%;
     display:flex;
@@ -33,7 +37,7 @@ html {
     color: #000;
 }
 .nav-item-list li a:hover {
-    color: #3c3838;
+    color: #55565c;
 }
 .nav-item-list li a.active {
     font-weight: 700;
@@ -46,10 +50,14 @@ html {
     letter-spacing: 1px;
     border: none;
     text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
 }
 .primary-button:hover {
     background-color: #44464a;
-    cursor: pointer
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 .banner-container {
     width: 95vw;
@@ -92,7 +100,7 @@ html {
     color: #807b7b;
 }
 .services-container {
-    margin: 5rem auto;
+    margin: 0 0 5rem 0;
 }
 .services-header {
     text-align: center;
@@ -103,6 +111,9 @@ html {
 }
 .services-header p:first-child {
     text-transform: uppercase;
+    color: #55565c;
+    margin-bottom: 0.9rem;
+    font-size: 0.8rem;
 }
 .services-header p:last-child {
     font-size: 36px;
@@ -152,4 +163,12 @@ html {
     align-items: center;
     gap: 10px;
     height: 12vh;
+}
+.credits > p:hover {
+    cursor: pointer;
+    color: #000;
+}
+.credits > p {
+    color: #76767a;
+    font-size: 0.8rem;
 }
