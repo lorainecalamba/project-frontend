@@ -172,3 +172,26 @@ html {
     color: #76767a;
     font-size: 0.8rem;
 }
+.team-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.team-photo {
+    width: 20vw;
+    height: 45vh;
+    background-color: #F4F4F4;
+}
+.team-name {
+    text-align: center;
+}
+.team-name p:first-child {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.team-name p:last-child {
+    color: #807b7b;
+}
