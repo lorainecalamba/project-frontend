@@ -243,4 +243,26 @@ h2 {
 @keyframes faded{
     from {opacity: 1;}
     to {opacity: 0.6;}
+.team-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.team-photo {
+    width: 20vw;
+    height: 45vh;
+    background-color: #F4F4F4;
+}
+.team-name {
+    text-align: center;
+}
+.team-name p:first-child {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.team-name p:last-child {
+    color: #807b7b;
 }
