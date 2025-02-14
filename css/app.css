@@ -172,17 +172,6 @@ html {
     color: #76767a;
     font-size: 0.8rem;
 }
-.workbanner-container {
-    width: 95vw;
-    margin: 0 auto 100px auto;
-    background-color: #000;
-    min-height: 480px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-transform: capitalize;
-}
 .workbanner-text {
     font-size: 56px;
     line-height: 70px;
