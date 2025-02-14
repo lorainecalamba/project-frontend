@@ -172,23 +172,23 @@ html {
     color: #76767a;
     font-size: 0.8rem;
 }
-.workbanner-text {
+.work-banner-text {
     font-size: 56px;
     line-height: 70px;
 }
-.workflex-container {
+.work-flex-container {
     align-items: center;
     display:flex;
     flex-direction: column;
     justify-content: center;   
     margin-bottom: 60px; 
 }
-.workparagraph-light {
+.work-paragraph-light {
     opacity: 0.6;
     text-align: center;
     margin-bottom: 60px;
 }
-.worklink {
+.work-link {
     margin-bottom: 5px;
     font-size: 20px;
     line-height: 34px;
@@ -198,10 +198,10 @@ html {
     text-align: center;
     color: #000;
 }
-.worklink:hover {
+.work-link:hover {
     color: #55565c;
 }
-.workourwork {
+.work-header2 {
     text-align: center;
     margin-bottom: 10px;
     font-size: 12px;
@@ -225,7 +225,7 @@ h2 {
     margin-bottom: 80px;
     text-align: center;
 }   
-.workimg {
+.work-img {
     object-fit: cover;
     width: 80%;
 }
