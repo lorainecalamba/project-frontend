@@ -172,3 +172,86 @@ html {
     color: #76767a;
     font-size: 0.8rem;
 }
+.workbanner-container {
+    width: 95vw;
+    margin: 0 auto 100px auto;
+    background-color: #000;
+    min-height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+.workbanner-text {
+    font-size: 56px;
+    line-height: 70px;
+}
+.workflex-container {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-bottom: 60px; 
+}
+.workparagraph-light {
+    opacity: 0.6;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.worklink {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #000;
+}
+.worklink:hover {
+    color: #55565c;
+}
+.workourwork {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    opacity: 2;
+}
+.teamprojects {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}   
+.workimg {
+    object-fit: cover;
+    width: 80%;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.image-container:hover {
+    animation-name: faded;
+    animation-duration: 0.8s;
+    opacity: 0.6;
+}
+@keyframes faded{
+    from {opacity: 1;}
+    to {opacity: 0.6;}
+}
