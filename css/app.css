@@ -211,9 +211,8 @@ html {
     text-transform: uppercase;
     opacity: 0.6;
 }
-h2 {
+.work-heading {
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 36px;
     line-height: 50px;
