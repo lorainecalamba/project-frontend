@@ -243,6 +243,7 @@ h2 {
 @keyframes faded{
     from {opacity: 1;}
     to {opacity: 0.6;}
+}
 .team-container {
     display: grid;
     grid-template-columns: auto auto auto;
