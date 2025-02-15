@@ -172,10 +172,6 @@ html {
     color: #76767a;
     font-size: 0.8rem;
 }
-.work-banner-text {
-    font-size: 56px;
-    line-height: 70px;
-}
 .work-flex-container {
     align-items: center;
     display:flex;
