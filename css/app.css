@@ -247,6 +247,20 @@ html {
     height: 45vh;
     background-color: #f4f4f4;
 }
+.team-container-contact {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 100px;
+}   
+.team-photo-contact {
+    width: 18vw;
+    margin-right: 10px;
+    height: 150px;
+    background-color: #f4f4f4;
+}
 .team-name {
     text-align: center;
 }
@@ -296,6 +310,129 @@ html {
 .blog-description p:nth-child(3) {
     font-size: 12px;
     text-transform: uppercase;
+}
+.contact-grid {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-container {
+    padding: 45px 60px 50px 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eeeeee;
+    margin-right: 40px;
+}
+.address-form {
+    margin-left: 40px;
+}
+.contact-summary {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.contact-summary p:first-child {
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+.contact-summary p:last-child {
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 28px;
+}
+.contact-form {
+    margin:0;
+}
+.label-text{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.input-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0px;
+    border: 1px solid #e4e4e4;
+    font-size: 14px;
+    height: 40px;
+    font: inherit;
+
+}
+.message-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0px 0px 10px 0px;
+    border: 1px solid #e4e4e4;
+    font-size: 14px;
+    font: inherit;
+    height: 200px;
+}
+.input-field:focus {
+    transition: border-color 400ms ease;
+    border-color:#000;
+}
+.message-field:focus {
+    transition: border-color 400ms ease;
+    border-color:#000;
+}
+.submit-button {
+    width: 100%;
+    background-color: #1a1b1f;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 50px;
+}
+.address-wrap {
+    margin-bottom: 30px;
+}
+.address-header {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.address-paragraph {
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1a1b1f;
+    font-weight: 400;
+}
+.email-link {
+    text-decoration: underline;
+    color: #1a1b1f;
+}
+.map {
+    display: flex;
+    align-items: center;
+    margin: 100px auto 20px auto;
+    justify-content: center;
+    width: 97%;
+}
+.contact-divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: #eeeeee;
+
+}
+.contact-paragraph {
+    text-align: center;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1a1b1f;
+    font-weight: 400;
 }
 @media (min-width: 320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
