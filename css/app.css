@@ -102,20 +102,20 @@ html {
 .services-container {
     margin: 0 0 5rem 0;
 }
-.services-header {
+.page-header {
     text-align: center;
     padding: 80px 0;
 }
-.services-header p {
+.page-header p {
     margin: 0;
 }
-.services-header p:first-child {
+.page-header p:first-child {
     text-transform: uppercase;
     color: #55565c;
     margin-bottom: 0.9rem;
     font-size: 0.8rem;
 }
-.services-header p:last-child {
+.page-header p:last-child {
     font-size: 36px;
 }
 .services-sections {
