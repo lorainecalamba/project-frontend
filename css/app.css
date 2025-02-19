@@ -361,17 +361,20 @@ html {
     font-size: 14px;
     height: 40px;
     font: inherit;
-
+    box-sizing: border-box;
+    padding-left: 10px;
+    
 }
 .message-field {
     display: block;
     width: 100%;
     margin-bottom: 25px;
-    padding: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;
     border: 1px solid #e4e4e4;
     font-size: 14px;
     font: inherit;
     height: 200px;
+    box-sizing: border-box;
 }
 .input-field:focus {
     transition: border-color 400ms ease;
@@ -410,7 +413,13 @@ html {
 }
 .email-link {
     text-decoration: underline;
+    transition: opacity 200ms ease;
     color: #1a1b1f;
+}
+.email-link:hover {
+    transition: opacity 200ms ease;
+    opacity: 1;
+    color: #000000;
 }
 .map {
     display: flex;
