@@ -367,7 +367,6 @@ html {
     font: inherit;
     box-sizing: border-box;
     padding-left: 10px;
-    
 }
 .message-field {
     display: block;
@@ -437,7 +436,6 @@ html {
     margin-bottom: 30px;
     height: 1px;
     background-color: #eeeeee;
-
 }
 .contact-paragraph {
     text-align: center;
