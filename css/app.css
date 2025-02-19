@@ -178,6 +178,8 @@ html {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 60px;
+    width: 95vw;
+    margin: 0 auto;
 }
 .work-paragraph-light {
     opacity: 0.6;
@@ -217,7 +219,7 @@ html {
 }
 .work-img {
     object-fit: cover;
-    width: 80%;
+    max-width: 80%;
 }
 .image-container {
     display: flex;
@@ -326,9 +328,27 @@ html {
     #main-content.active {
         margin-top: 230px;
     }
+    .banner-container {
+        height: 480px;
+    }
+    .banner-text {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .work-img {
+        object-fit: cover;
+        max-width: 95%;
+    }
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .banner-text {
+        font-size: 50px;
+    }
+    .work-img {
+        object-fit: cover;
+        max-width: 100%;
+    }
 }
 @media (min-width: 641px) {
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -342,10 +362,22 @@ html {
     #nav-icon {
         display: none;
     }
+    .banner-text {
+        font-size: 50px;
+    }
 }
 @media (min-width: 1025px) {
     /* big landscape tablets, laptops, and desktops */
+    .banner-text {
+        font-size: 64px;
+    }
 }
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
+    .work-flex-container {
+        width: 100%;
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
