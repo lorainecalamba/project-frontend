@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Blog</title>
         <link rel="stylesheet" type="text/css" href="../../css/app.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
     <body>
         <nav class="navbar-container">
@@ -12,12 +15,20 @@
                 <p>Business</p>
             </div>
             <div class="navbar-items">
+                <a
+                    href="javascript:void(0);"
+                    id="nav-icon"
+                    onclick="toggleMenu();">
+                    <i class="fa fa-bars"></i>
+                </a>
                 <ul class="nav-item-list">
                     <li><a href="../../index.html">About</a></li>
-                    <li><a href="pages/frontend/work.html">work</a></li>
-                    <li><a href="pages/frontend/team.html">team</a></li>
-                    <li><a href="pages/frontend/blog.html" class="active">blog</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="work.html">work</a></li>
+                    <li><a href="team.html">team</a></li>
+                    <li>
+                        <a href="blog.html" class="active">blog</a>
+                    </li>
+                    <li><a href="contact.html">contact</a></li>
                 </ul>
             </div>
             <div class="navbar-actions">
@@ -25,96 +36,121 @@
             </div>
         </nav>
 
-        <div class="banner-container">
-            <p class="banner-text">Our Blog</p>
+        <div id="main-content">
+            <div class="banner-container">
+                <p class="banner-text">Our Blog</p>
+            </div>
+
+            <div class="services-header">
+                <p>APERIAM HARUM</p>
+                <p>Our Stories</p>
+            </div>
+
+            <div class="container">
+                <div class="blog-image">
+                    <img src="../../resources/images/Blog1.png" width="100%" />
+                </div>
+                <div class="blog-container">
+                    <div class="blog-description">
+                        <p>10 Quick Tips About Blogging</p>
+                        <p>
+                            Sit quam quae perferendis harum amet dolorum
+                            possimus minus. Occaecati magnam animi quasi dolor
+                            quae et aut. Autem voluptas alias nobis in odit.
+                            Aperiam harum eum modi neque. Ipsum iusto beatae et
+                            esse nobis illum hic natus. Sapiente non cumque quia
+                            facilis. Quo est odio culpa eaque sit ipsum mol
+                        </p>
+                        <p>February 21, 2019</p>
+                    </div>
+                </div>
+                <div class="blog-image">
+                    <img src="../../resources/images/Blog2.png" width="100%" />
+                </div>
+                <div class="blog-container">
+                    <div class="blog-description">
+                        <p>15 Best Blogs To Follow About Web Design</p>
+                        <p>
+                            Maxime repellendus beatae asperiores. Est sapiente a
+                            et consectetur quo voluptate explicabo quis.
+                            Dignissimos error esse sapiente aperiam amet eum
+                            perspiciatis. Dolor totam voluptatum veritatis ex
+                            assumenda ut assumenda accus
+                        </p>
+                        <p>February 21, 2019</p>
+                    </div>
+                </div>
+                <div class="blog-image">
+                    <img src="../../resources/images/Blog3.png" width="100%" />
+                </div>
+                <div class="blog-container">
+                    <div class="blog-description">
+                        <p>17 of the Best Examples of Beautiful Blog Design</p>
+                        <p>
+                            Harum et neque voluptate voluptatem aut quis culpa
+                            modi. Enim similique provident et libero quod magni
+                            soluta. Repudiandae deserunt architecto itaque
+                            repellat perfe
+                        </p>
+                        <p>February 21, 2019</p>
+                    </div>
+                </div>
+                <div class="blog-image">
+                    <img src="../../resources/images/Blog1.png" width="100%" />
+                </div>
+                <div class="blog-container">
+                    <div class="blog-description">
+                        <p>5 Principles of Effective Web Design</p>
+                        <p>
+                            Qui unde velit voluptatem architecto qui sequi et
+                            delectus. Dolore at quia et tempora maiores qui vel
+                            ipsam voluptas. Cupiditate qui vel. Placeat dolor ex
+                            voluptas architecto sit. Ea ad deserunt dicta et.
+                            Asperiores veniam voluptatum odio veritatis alias
+                            nihil. Dolor libero fac
+                        </p>
+                        <p>February 21, 2019</p>
+                    </div>
+                </div>
+                <div class="blog-image">
+                    <img src="../../resources/images/Blog2.png" width="100%" />
+                </div>
+                <div class="blog-container">
+                    <div class="blog-description">
+                        <p>14 Common Problems with modern Web Design</p>
+                        <p>
+                            Est aperiam dolores fuga ut id. Itaque et minima
+                            quae similique aliquid. Est tempora aliquam quasi
+                            nihil dolores ut blanditiis dolor. Laboriosam omnis
+                            quae accusamus totam a totam eius. Est ad ea est
+                            autem ut iusto sed velit et. Possimus quos hic dolo
+                        </p>
+                        <p>February 21, 2019</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-container">
+                <footer class="footer">
+                    <p>Grow your business.</p>
+                    <p>
+                        Today is the day to build the business of your dreams.
+                        Share your mission with<br />
+                        the world — and blow your customers away.
+                    </p>
+
+                    <a href="pages/frontend/contact.html" class="primary-button"
+                        >Start Now</a
+                    >
+                </footer>
+
+                <div class="credits">
+                    <img src="../../resources/images/webflow.png" width="15" />
+                    <p>Powered by Webflow</p>
+                </div>
+            </div>
         </div>
 
-        <div class="services-header">
-            <p>APERIAM HARUM</p>
-            <p>Our Stories</p>
-        </div>
-
-        <div class="container">
-            <div class="blog-image">
-                <img src="../../resources/images/Blog1.png" width="100%"/> 
-            </div>
-            <div class="blog-container">
-                <div class="blog-description">
-                    <p> 10 Quick Tips About Blogging</p>
-                    <p>
-                        Sit quam quae perferendis harum amet dolorum possimus minus. Occaecati magnam animi quasi dolor quae et aut. Autem voluptas alias nobis in odit. Aperiam harum eum modi neque. Ipsum iusto beatae et esse nobis illum hic natus. Sapiente non cumque quia facilis. Quo est odio culpa eaque sit ipsum mol
-                    </p>
-                    <p> February 21, 2019</p>
-                </div>
-            </div>
-            <div class="blog-image">
-                <img src="../../resources/images/Blog2.png" width="100%"/> 
-            </div>           
-            <div class="blog-container">
-                <div class="blog-description">
-                    <p> 15 Best Blogs To Follow About Web Design</p>
-                    <p>
-                        Maxime repellendus beatae asperiores. Est sapiente a et consectetur quo voluptate explicabo quis. Dignissimos error esse sapiente aperiam amet eum perspiciatis. Dolor totam voluptatum veritatis ex assumenda ut assumenda accus
-                    </p>
-                    <p> February 21, 2019</p>
-                </div>
-            </div>
-            <div class="blog-image">
-                <img src="../../resources/images/Blog3.png" width="100%"/> 
-            </div>           
-            <div class="blog-container">
-                <div class="blog-description">
-                    <p> 17 of the Best Examples of Beautiful Blog Design</p>
-                    <p>
-                        Harum et neque voluptate voluptatem aut quis culpa modi. Enim similique provident et libero quod magni soluta. Repudiandae deserunt architecto itaque repellat perfe
-                    </p>
-                    <p> February 21, 2019</p>
-                </div>
-            </div>
-            <div class="blog-image">
-                <img src="../../resources/images/Blog1.png" width="100%"/> 
-            </div>
-            <div class="blog-container">
-                <div class="blog-description">
-                    <p> 5 Principles of Effective Web Design</p>
-                    <p>
-                        Qui unde velit voluptatem architecto qui sequi et delectus. Dolore at quia et tempora maiores qui vel ipsam voluptas. Cupiditate qui vel. Placeat dolor ex voluptas architecto sit. Ea ad deserunt dicta et. Asperiores veniam voluptatum odio veritatis alias nihil. Dolor libero fac
-                    </p>
-                    <p> February 21, 2019</p>
-                </div>
-            </div>
-            <div class="blog-image">
-                <img src="../../resources/images/Blog2.png" width="100%"/> 
-            </div>           
-            <div class="blog-container">
-                <div class="blog-description">
-                    <p> 14 Common Problems with modern Web Design</p>
-                    <p>
-                        Est aperiam dolores fuga ut id. Itaque et minima quae similique aliquid. Est tempora aliquam quasi nihil dolores ut blanditiis dolor. Laboriosam omnis quae accusamus totam a totam eius. Est ad ea est autem ut iusto sed velit et. Possimus quos hic dolo
-                    </p>
-                    <p> February 21, 2019</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer-container">
-            <footer class="footer">
-                <p>Grow your business.</p>
-                <p>
-                    Today is the day to build the business of your dreams. Share
-                    your mission with<br />
-                    the world — and blow your customers away.
-                </p>
-
-                <a href="pages/frontend/contact.html" class="primary-button"
-                    >Start Now</a
-                >
-            </footer>
-
-            <div class="credits">
-                <img src="../../resources/images/webflow.png" width="15" />
-                <p>Powered by Webflow</p>
-            </div>
-        </div>
+        <script src="../../js/main.js"></script>
     </body>
 </html>

@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Team</title>
         <link rel="stylesheet" type="text/css" href="../../css/app.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
     <body>
         <nav class="navbar-container">
@@ -12,12 +15,18 @@
                 <p>Business</p>
             </div>
             <div class="navbar-items">
+                <a
+                    href="javascript:void(0);"
+                    id="nav-icon"
+                    onclick="toggleMenu();">
+                    <i class="fa fa-bars"></i>
+                </a>
                 <ul class="nav-item-list">
                     <li><a href="../../index.html">About</a></li>
                     <li><a href="work.html">work</a></li>
                     <li><a href="team.html" class="active">team</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
                 </ul>
             </div>
             <div class="navbar-actions">
@@ -25,79 +34,82 @@
             </div>
         </nav>
 
-        <div class="banner-container">
-            <p class="banner-text">Team</p>
-        </div>
+        <div id="main-content">
+            <div class="banner-container">
+                <p class="banner-text">Team</p>
+            </div>
 
-    
-        <div class="services-header">
-            <p>Our people</p>
-            <p>Our world-class team</p>
-        </div>
+            <div class="services-header">
+                <p>Our people</p>
+                <p>Our world-class team</p>
+            </div>
 
-        <div class="team-container">
-            <section>
-                <div class="team-photo"></div>
-                <div class="team-name">
-                    <p>Michael Fassbender</p>
-                    <p>CEO</p>
-                </div>
-            </section>
-            <section>
-                <div class="team-photo"></div>
-                <div class="team-name">
-                    <p>Jason Smith</p>
-                    <p>Product Designer</p>
-                </div>
-            </section>
-            <section>
-                <div class="team-photo"></div>
-                <div class="team-name">
-                    <p>Amanda Peterson</p>
-                    <p>Design Director</p>
-                </div>
-            </section>
-            <section>
-                <div class="team-photo"></div>
-                <div class="team-name">
-                    <p>Billy Maxwell</p>
-                    <p>Lead Developer</p>
-                </div>
-            </section>
-            <section>
-                <div class="team-photo"></div>
-                <div class="team-name">
-                    <p>Joshua Harris</p>
-                    <p>CTO</p>
-                </div>
-            </section>
-            <section>
-                <div class="team-photo"></div>
-                <div class="team-name">
-                    <p>Esther Ford</p>
-                    <p>Recruiter</p>
-                </div>
-            </section>
-        </div>
-        
-        <div class="footer-container">
-            <footer class="footer">
-                <p>Grow your business.</p>
-                <p>
-                    Today is the day to build the business of your dreams. Share
-                    your mission with<br />
-                    the world — and blow your customers away.
-                </p>
+            <div class="team-container">
+                <section>
+                    <div class="team-photo"></div>
+                    <div class="team-name">
+                        <p>Michael Fassbender</p>
+                        <p>CEO</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="team-photo"></div>
+                    <div class="team-name">
+                        <p>Jason Smith</p>
+                        <p>Product Designer</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="team-photo"></div>
+                    <div class="team-name">
+                        <p>Amanda Peterson</p>
+                        <p>Design Director</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="team-photo"></div>
+                    <div class="team-name">
+                        <p>Billy Maxwell</p>
+                        <p>Lead Developer</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="team-photo"></div>
+                    <div class="team-name">
+                        <p>Joshua Harris</p>
+                        <p>CTO</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="team-photo"></div>
+                    <div class="team-name">
+                        <p>Esther Ford</p>
+                        <p>Recruiter</p>
+                    </div>
+                </section>
+            </div>
 
-                <a href="pages/frontend/contact.html" class="primary-button"
-                    >Start Now</a
-                >
-            </footer>
+            <div class="footer-container">
+                <footer class="footer">
+                    <p>Grow your business.</p>
+                    <p>
+                        Today is the day to build the business of your dreams.
+                        Share your mission with<br />
+                        the world — and blow your customers away.
+                    </p>
 
-            <div class="credits">
-                <img src="../../resources/images/webflow.png" width="15" />
-                <p>Powered by Webflow</p>
+                    <a href="pages/frontend/contact.html" class="primary-button"
+                        >Start Now</a
+                    >
+                </footer>
+
+                <div class="credits">
+                    <img src="../../resources/images/webflow.png" width="15" />
+                    <p>Powered by Webflow</p>
+                </div>
             </div>
         </div>
+
+        <script src="../../js/main.js"></script>
     </body>
 </html>
