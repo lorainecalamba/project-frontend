@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Work</title>
         <link rel="stylesheet" type="text/css" href="../../css/app.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
     <body>
         <nav class="navbar-container">
@@ -12,6 +15,12 @@
                 <p>Business</p>
             </div>
             <div class="navbar-items">
+                <a
+                    href="javascript:void(0);"
+                    id="nav-icon"
+                    onclick="toggleMenu();">
+                    <i class="fa fa-bars"></i>
+                </a>
                 <ul class="nav-item-list">
                     <li><a href="../../index.html" >About</a></li>
                     <li><a href="../frontend/work.html" class="active">work</a></li>
@@ -25,57 +34,67 @@
             </div>
         </nav>
 
-        <div class="banner-container">
-            <p class="banner-text">Our Work</p>
-        </div>
-
-        <div class="services-header">
-            <p>Our Work</p>
-            <p> Team projects</p>
-        </div>
-
-        <div class="work-flex-container">                 
-            <div>
-                <a href="#" class="image-container">
-                    <img class="work-img" src="https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc030dd7274dd880c516ca_portfolio%201%20-%20wide.svg">
-                </a>
-                <a href="" class="work-link">Project #1</a>
-                <p class="work-paragraph-light">Art direction</p>
+        <div id="main-content">
+            <div class="banner-container">
+                <p class="banner-text">Our Work</p>
             </div>
-            <div>
-                <a href="#" class="image-container">
-                    <img class="work-img" src="https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc00e3a4217f7862153ae2_portfolio%202%20-%20wide.svg">
-                </a>
-                <a href="" class="work-link">Project #2</a>
-                <p class="work-paragraph-light">Product Design</p>
+
+            <div class="services-header">
+                <p>Our Work</p>
+                <p>Team projects</p>
             </div>
-            <div>
-                <a href="#" class="image-container">
-                    <img class="work-img" src="https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc030da4217f36e7154d83_portfolio%203%20-%20wide.svg">
-                </a>
-                <a href="" class="work-link">Project #3</a>
-                <p class="work-paragraph-light">Animation</p>   
-            </div>  
+
+            <div class="work-flex-container">
+                <div>
+                    <a href="#" class="image-container">
+                        <img
+                            class="work-img"
+                            src="https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc030dd7274dd880c516ca_portfolio%201%20-%20wide.svg" />
+                    </a>
+                    <a href="" class="work-link">Project #1</a>
+                    <p class="work-paragraph-light">Art direction</p>
+                </div>
+                <div>
+                    <a href="#" class="image-container">
+                        <img
+                            class="work-img"
+                            src="https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc00e3a4217f7862153ae2_portfolio%202%20-%20wide.svg" />
+                    </a>
+                    <a href="" class="work-link">Project #2</a>
+                    <p class="work-paragraph-light">Product Design</p>
+                </div>
+                <div>
+                    <a href="#" class="image-container">
+                        <img
+                            class="work-img"
+                            src="https://assets.website-files.com/5c6eb5400253230156de2bd6/5cdc030da4217f36e7154d83_portfolio%203%20-%20wide.svg" />
+                    </a>
+                    <a href="" class="work-link">Project #3</a>
+                    <p class="work-paragraph-light">Animation</p>
+                </div>
+            </div>
+
+            <div class="footer-container">
+                <footer class="footer">
+                    <p>Grow your business.</p>
+                    <p>
+                        Today is the day to build the business of your dreams.
+                        Share your mission with<br />
+                        the world — and blow your customers away.
+                    </p>
+
+                    <a href="pages/frontend/contact.html" class="primary-button"
+                        >Start Now</a
+                    >
+                </footer>
+
+                <div class="credits">
+                    <img src="resources/images/webflow.png" width="15" />
+                    <p>Powered by Webflow</p>
+                </div>
+            </div>
         </div>
 
-        <div class="footer-container">
-            <footer class="footer">
-                <p>Grow your business.</p>
-                <p>
-                    Today is the day to build the business of your dreams. Share
-                    your mission with<br />
-                    the world — and blow your customers away.
-                </p>
-
-                <a href="pages/frontend/contact.html" class="primary-button"
-                    >Start Now</a
-                >
-            </footer>
-
-            <div class="credits">
-                <img src="resources/images/webflow.png" width="15" />
-                <p>Powered by Webflow</p>
-            </div>
-        </div>
+        <script src="../../js/main.js"></script>
     </body>
 </html>
