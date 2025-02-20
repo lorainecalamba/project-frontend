@@ -258,7 +258,7 @@ html {
     align-items: center;
     gap: 70px;
     margin-bottom: 100px;
-}   
+}
 .team-photo-contact {
     width: 18vw;
     margin-right: 10px;
@@ -347,9 +347,9 @@ html {
     line-height: 28px;
 }
 .contact-form {
-    margin:0;
+    margin: 0;
 }
-.label-text{
+.label-text {
     display: block;
     margin-bottom: 10px;
     font-size: 12px;
@@ -381,11 +381,11 @@ html {
 }
 .input-field:focus {
     transition: border-color 400ms ease;
-    border-color:#000;
+    border-color: #000;
 }
 .message-field:focus {
     transition: border-color 400ms ease;
-    border-color:#000;
+    border-color: #000;
 }
 .submit-button {
     width: 100%;
@@ -451,6 +451,7 @@ html {
 #main-content {
     transition: margin-top 0.3s ease;
 }
+
 @media (min-width: 320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
     .nav-item-list,
@@ -470,12 +471,32 @@ html {
     #main-content.active {
         margin-top: 230px;
     }
+    .team-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-photo {
+        width: 90vw;
+    }
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .team-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team-photo {
+        width: 40vw;
+        height: 30vh;
+    }
 }
 @media (min-width: 641px) {
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .team-photo {
+        width: 40vw;
+    }
 }
 @media (min-width: 961px) {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -489,6 +510,16 @@ html {
 }
 @media (min-width: 1025px) {
     /* big landscape tablets, laptops, and desktops */
+    .team-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-photo {
+        width: 20vw;
+        height: 30vh;
+    }
 }
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
