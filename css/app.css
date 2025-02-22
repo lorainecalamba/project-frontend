@@ -166,6 +166,17 @@ html {
     .team-photo {
         width: 90vw;
     }
+    .banner-container {
+        height: 480px;
+    }
+    .banner-text {
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .work-img {
+        object-fit: cover;
+        width: 95%;
+    }
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
