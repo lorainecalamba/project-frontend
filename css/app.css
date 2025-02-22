@@ -78,7 +78,7 @@ html {
 }
 .banner-text {
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 .container {
@@ -209,4 +209,10 @@ html {
 }
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
+    .work-flex-container {
+        width: 100%;
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
