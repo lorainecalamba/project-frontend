@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import "_about.css";
-@import "_work.css";
-@import "_team.css";
-@import "_blog.css";
-@import "_contact.css";
 
 /* Global Styles */
 html {
@@ -123,6 +118,43 @@ html {
 .credits > p {
     color: #76767a;
     font-size: 0.8rem;
+}
+.services-container {
+    margin: 0 0 5rem 0;
+}
+.services-header {
+    text-align: center;
+    padding: 80px 0;
+}
+.services-header p {
+    margin: 0;
+}
+.services-header p:first-child {
+    text-transform: uppercase;
+    color: #55565c;
+    margin-bottom: 0.9rem;
+    font-size: 0.8rem;
+}
+.services-header p:last-child {
+    font-size: 36px;
+}
+.services-sections {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+}
+.services-sections > section > p {
+    line-height: 28px;
+}
+.services-sections > section > p:nth-last-of-type(2) {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.services-sections > section > p:last-child {
+    color: #807b7b;
+}
+.services-sections img {
+    width: 41px;
 }
 @keyframes faded {
     from {
