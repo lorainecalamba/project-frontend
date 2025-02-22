@@ -173,18 +173,25 @@ html {
     border-bottom: 1px solid #eeeeee;
     color: #807b7b;
 }
+.blog-container {
+    width: 70vw;
+    margin: 0 auto;
+}
 .blog-image {
     display: block;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 .blog-image:hover {
     animation-name: faded;
     animation-duration: 0.8s;
     opacity: 0.6;
 }
-.blog-container {
+.blog-summary {
     width: 50vw;
     margin: 50px auto 80px auto;
 }
@@ -206,11 +213,13 @@ html {
     font-size: 16px;
     word-spacing: 0;
     line-height: 28px;
-    opacity: 0.6;
+    opacity: 0.5;
     margin-bottom: 20px;
 }
 .blog-description p:nth-child(3) {
     font-size: 12px;
+    font-weight: 500;
+    opacity: 0.7;
     text-transform: uppercase;
 }
 .contact-grid {
@@ -480,6 +489,36 @@ html {
     .team-photo {
         width: 90vw;
     }
+    .blog-container {
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .blog-summary {
+        box-sizing: border-box;
+        text-align: center;
+        width: 100%;
+        margin: 45px auto 80px auto;
+    }
+    .blog-description {
+        text-align: center;     
+    }
+    .blog-description p:nth-child(1) {
+        font-size: 31px;
+        margin-bottom: 10px;
+    }
+    .blog-description p:nth-child(2) {
+        font-size: 16px;
+        word-spacing: 0;
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    .blog-description p:nth-child(3) {
+        font-size: 12px;
+        font-weight: 500;
+        opacity: 0.6;
+        margin-top: 20px;
+    }
+
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -491,11 +530,22 @@ html {
         width: 40vw;
         height: 30vh;
     }
+    .blog-container {
+        width: 90vw;
+        margin: 0 auto;
+    }
 }
 @media (min-width: 641px) {
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
     .team-photo {
         width: 40vw;
+    }
+    .blog-container {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .blog-description {
+        text-align: justify;
     }
 }
 @media (min-width: 961px) {
@@ -507,6 +557,16 @@ html {
     #nav-icon {
         display: none;
     }
+    .blog-container {
+        width: 80vw;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .blog-summary {
+        width: 50vw;
+        margin: 50px auto 80px auto;
+    }
+
 }
 @media (min-width: 1025px) {
     /* big landscape tablets, laptops, and desktops */
@@ -520,6 +580,10 @@ html {
         width: 20vw;
         height: 30vh;
     }
+    .blog-container {
+        width: 70vw;
+        margin: 0 auto;
+    }
 }
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
@@ -528,5 +592,10 @@ html {
         max-width: 1140px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .blog-container {
+        width: 100%;
+        max-width: 1140px;
+
     }
 }
