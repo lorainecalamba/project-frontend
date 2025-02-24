@@ -526,7 +526,7 @@ html {
 #main-content {
     transition: margin-top 0.3s ease;
 }
-@media (max-width: 480px) {
+@media (min-width: 320px), (width < 320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
     .nav-item-list,
     .navbar-actions {
