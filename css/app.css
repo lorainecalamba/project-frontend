@@ -222,6 +222,10 @@ html {
     opacity: 0.7;
     text-transform: uppercase;
 }
+.contact-page-container {
+    width: 70vw;
+    margin: 0 auto;
+}
 .contact-grid {
     display: grid;
     align-items: start;
@@ -249,7 +253,7 @@ html {
     font-size: 36px;
 }
 .contact-summary p:last-child {
-    opacity: 0.5;
+    opacity: 0.6;
     font-size: 16px;
     line-height: 28px;
 }
@@ -267,22 +271,21 @@ html {
     display: block;
     width: 100%;
     margin-bottom: 25px;
-    padding: 0px;
     border: 1px solid #e4e4e4;
-    font-size: 14px;
     height: 40px;
-    font: inherit;
+    font-family: inherit;
+    font-size: 14px;
     box-sizing: border-box;
-    padding-left: 10px;
+    padding: 21px 20px;
 }
 .message-field {
     display: block;
     width: 100%;
     margin-bottom: 25px;
-    padding: 10px 0px 10px 10px;
+    padding: 12px 20px 21px 20px;
     border: 1px solid #e4e4e4;
+    font-family: inherit;
     font-size: 14px;
-    font: inherit;
     height: 200px;
     box-sizing: border-box;
 }
@@ -595,6 +598,46 @@ html {
         object-fit: cover;
         width: 95%;
     }
+    .contact-page-container {
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .contact-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .contact-container {
+        padding: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #eeeeee;
+        margin-right: 0px;
+    }
+    .address-form {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .contact-summary {
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: 400;
+    }
+    .team-container-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .team-photo-contact {
+        width: 90vw;
+        margin-right: 0px;
+    }
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -608,6 +651,10 @@ html {
     }
     .blog-container {
         width: 90vw;
+        margin: 0 auto;
+    }
+    .contact-page-container {
+        width: 80vw;
         margin: 0 auto;
     }
 }
@@ -640,6 +687,12 @@ html {
         width: 50vw;
         margin: 50px auto 80px auto;
     }
+    .contact-page-container {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+
 }
 @media (min-width: 1025px) {
     /* big landscape tablets, laptops, and desktops */
@@ -656,6 +709,50 @@ html {
     .blog-container {
         width: 70vw;
         margin: 0 auto;
+    }
+    .contact-grid {
+        display: grid;
+        align-items: start;
+        grid-template-columns: 2.5fr 1fr;
+        grid-template-rows: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .contact-container {
+        padding: 45px 60px 50px 60px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #eeeeee;
+        margin-right: 40px;
+    }
+    .address-form {
+        margin-left: 40px;
+        text-align: justify;
+    }
+    .contact-summary {
+        text-align: justify;
+    }
+    .team-container-contact {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        margin-bottom: 100px;
+    }
+    .team-photo-contact {
+        width: 18vw;
+        margin-right: 10px;
+        height: 150px;
+        background-color: #f4f4f4;
+    }
+    .address-paragraph {
+        display: block;
+        box-sizing: border-box;
+        opacity: 0.5;
+        font-size: 16px;
+        line-height: 28px;
+        text-justify: inter-word;
     }
 }
 @media (min-width: 1281px) {
