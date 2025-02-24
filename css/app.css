@@ -464,10 +464,12 @@ html {
     grid-gap: 10px;
     grid-column-gap: 80px;
     grid-row-gap: 30px;
-    grid-template-areas: ". .";
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    width: 100%;
+    grid-template-areas: 
+    "."
+    ".";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    width: 80%;
     max-width: 1140px;
     margin: 100px auto;
     padding: 10px;
@@ -638,6 +640,17 @@ html {
         width: 90vw;
         margin-right: 0px;
     }
+    .project-label {    
+        text-align: center;
+    }
+    .project-light {
+        text-align: center;
+    }
+    .project-banner-text {
+        font-size: 36px;
+        line-height: 48px; 
+        direction:rtl;       
+    }
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -753,6 +766,18 @@ html {
         font-size: 16px;
         line-height: 28px;
         text-justify: inter-word;
+    }
+    .grid-container {
+        grid-template-areas:"..";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto;
+        width: 80%;
+    }
+    .project-label {
+        text-align: left;
+    }
+    .project-light {
+        text-align: left;
     }
 }
 @media (min-width: 1281px) {
