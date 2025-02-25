@@ -11,18 +11,17 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin-top: 10px;
 }
 .navbar-container > div {
     padding: 0 1.5rem;
 }
 .navbar-logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #313339;
-    text-decoration: underline;
+    width: 108px;
 }
-.navbar-logo p:hover {
-    color: #55565c;
+.navbar-logo:hover {
+    opacity: 0.8;
+    transition: opacity 200ms ease;
     cursor: pointer;
 }
 .nav-item-list {
@@ -30,23 +29,34 @@ html {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 3rem;
+    font-size: 12px;
+    line-height:20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    gap: 2.5rem;
 }
 .nav-item-list li a {
     text-transform: uppercase;
     text-decoration: none;
+    opacity: 0.6;
     color: #000;
 }
 .nav-item-list li a:hover {
     color: #55565c;
 }
 .nav-item-list li a.active {
-    font-weight: 700;
+    opacity: 1;
+    color: #000000;
+    font-weight: 600;
+}
+.navbar-actions {
+    height: 44px;
+    letter-spacing: 2px;
 }
 .primary-button {
     background-color: #000;
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 12px 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     border: none;
@@ -54,6 +64,8 @@ html {
     transition: background-color 0.3s ease;
     font-weight: 400;
     letter-spacing: 0.1rem;
+    font-size: 12px;
+    font-family: "Montserrat"
 }
 .primary-button:hover {
     background-color: #44464a;
@@ -537,6 +549,13 @@ html {
     .navbar-actions {
         display: none;
     }
+    .navbar-container {
+        margin-top: 0;
+        padding: 12px 20px 20px 10px;
+    }
+    .navbar-container > div {
+        padding: 0;
+    }
     .nav-item-list.active {
         display: flex;
         flex-direction: column;
@@ -683,6 +702,10 @@ html {
     .blog-description {
         text-align: justify;
     }
+    .navbar-container {
+        margin-top: 10px;
+        padding: 15px 20px 20px 10px;
+    }
 }
 @media (min-width: 961px) {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -704,8 +727,12 @@ html {
         width: 70vw;
         margin: 0 auto;
     }
-
-
+    .navbar-container {
+        padding: 20px;
+    }
+    .navbar-container > div {
+        padding: 0 1.5rem;
+    }
 }
 @media (min-width: 1025px) {
     /* big landscape tablets, laptops, and desktops */
