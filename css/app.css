@@ -526,7 +526,6 @@ html {
     width: 70%;
     margin: 60px auto;
 }
-
 .blog-title p:first-child {
     font-size: 44px;
     font-weight: 400;
@@ -542,6 +541,15 @@ html {
 }
 .blogview-image-container {
     margin-bottom: 60px;
+}
+.blogview-image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 .blog-body{
     display: block;
