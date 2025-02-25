@@ -629,7 +629,7 @@ html {
         margin-bottom: 40px;
         font-weight: 400;
     }
-    .team-container-contact {
+    .team-container-contact, .services-sections {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -650,6 +650,9 @@ html {
         font-size: 36px;
         line-height: 48px; 
         direction:rtl;       
+    }
+    .services-sections {
+
     }
 }
 @media (min-width: 481px) {
@@ -745,7 +748,7 @@ html {
     .contact-summary {
         text-align: justify;
     }
-    .team-container-contact {
+    .team-container-contact, .services-sections {
         display: grid;
         grid-template-columns: auto auto auto;
         justify-content: center;
