@@ -563,8 +563,8 @@ html {
         top: 100px;
         left: 0;
         z-index: 99;
-        row-gap: 25px;
-        padding: 10px;
+        row-gap: 18px;
+        padding: 0px;
     }
     #main-content.active {
         margin-top: 230px;
