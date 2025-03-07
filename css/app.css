@@ -669,9 +669,6 @@ html {
         line-height: 48px; 
         direction:rtl;       
     }
-    .services-sections {
-
-    }
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
