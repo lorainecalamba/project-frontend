@@ -30,7 +30,7 @@ html {
     align-items: center;
     list-style: none;
     font-size: 12px;
-    line-height:20px;
+    line-height: 20px;
     font-weight: 500;
     letter-spacing: 1px;
     gap: 2.5rem;
@@ -65,7 +65,7 @@ html {
     font-weight: 400;
     letter-spacing: 0.1rem;
     font-size: 12px;
-    font-family: "Montserrat"
+    font-family: "Montserrat";
 }
 .primary-button:hover {
     background-color: #44464a;
@@ -476,9 +476,9 @@ html {
     grid-gap: 10px;
     grid-column-gap: 80px;
     grid-row-gap: 30px;
-    grid-template-areas: 
-    "."
-    ".";
+    grid-template-areas:
+        "."
+        ".";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     width: 80%;
@@ -560,14 +560,14 @@ html {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 100px;
+        top: 60px;
         left: 0;
         z-index: 99;
         row-gap: 18px;
         padding: 0px;
     }
     #main-content.active {
-        margin-top: 230px;
+        margin-top: 200px;
     }
     .team-container {
         display: flex;
@@ -647,7 +647,8 @@ html {
         margin-bottom: 40px;
         font-weight: 400;
     }
-    .team-container-contact, .services-sections {
+    .team-container-contact,
+    .services-sections {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -658,7 +659,7 @@ html {
         width: 90vw;
         margin-right: 0px;
     }
-    .project-label {    
+    .project-label {
         text-align: center;
     }
     .project-light {
@@ -666,8 +667,8 @@ html {
     }
     .project-banner-text {
         font-size: 36px;
-        line-height: 48px; 
-        direction:rtl;       
+        line-height: 48px;
+        direction: rtl;
     }
 }
 @media (min-width: 481px) {
@@ -772,7 +773,8 @@ html {
     .contact-summary {
         text-align: justify;
     }
-    .team-container-contact, .services-sections {
+    .team-container-contact,
+    .services-sections {
         display: grid;
         grid-template-columns: auto auto auto;
         justify-content: center;
@@ -795,7 +797,7 @@ html {
         text-justify: inter-word;
     }
     .grid-container {
-        grid-template-areas:"..";
+        grid-template-areas: "..";
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto auto;
         width: 80%;
