@@ -201,6 +201,10 @@ html {
 .blog-description p {
     margin: 0;
 }
+.blog-heading-link {
+    text-decoration: none;
+    color: #1a1b1f
+}
 .blog-description p:nth-child(1) {
     font-size: 30px;
     margin-bottom: 20px;
@@ -208,6 +212,8 @@ html {
 .blog-description p:nth-child(1):hover {
     color: #55565c;
     cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
 }
 .blog-description p:nth-child(2) {
     font-size: 16px;
@@ -857,7 +863,25 @@ html {
         margin-left: auto;
     }
     .blog-container {
+        width: 70vw;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .blog-image {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto 45px auto;
         width: 100%;
         max-width: 1140px;
+        object-fit: cover;
+    }
+    .blog-description {
+        margin: 45px auto 20px auto;
+        align-content: center;
+    }
+    .blog-summary {
+        width: 70%;
+        margin: 50px auto 80px auto;
     }
 }
