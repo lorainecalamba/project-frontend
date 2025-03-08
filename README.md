@@ -13,10 +13,12 @@ Special thanks to [Loraine Calamba](https://github.com/lorainecalamba)
 How It's Made
 ====
 **Languages Used:** 
-<link rel="stylesheet" type="text/css" href="../../css/app.css" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" style="width:50px; height:50px;" >
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" style="width:50px; height:50px;" >
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="width:50px; height:50px;" >
+<p> 
+    <link rel="stylesheet" type="text/css" href="../../css/app.css" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" style="width:50px; height:50px;" >
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" style="width:50px; height:50px;" >
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="width:50px; height:50px;" >
+</p>
 
 ### **HTML**
 
