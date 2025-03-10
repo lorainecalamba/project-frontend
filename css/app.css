@@ -670,6 +670,10 @@ html {
         line-height: 48px;
         direction: rtl;
     }
+    .intro-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media (min-width: 481px) {
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
